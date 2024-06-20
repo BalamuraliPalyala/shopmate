@@ -3,7 +3,7 @@ export const ProductCard = ({ product }) => {
   return (
     <>
       <div className="w-full max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 m-2">
-        <a href="#">
+        <a href="/">
           <img
             className="p-8 rounded-t-lg"
             src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg"
