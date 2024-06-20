@@ -7,11 +7,11 @@ export const ProductCard = ({ product }) => {
           <img
             className="p-8 rounded-t-lg"
             src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg"
-            alt="product image"
+            alt="product"
           />
         </a>
         <div className="px-5 pb-5">
-          <a href="#">
+          <a href="/">
             <h5 className="text-xl font-semibold tracking-tight text-gray-900 dark:text-white">
               {product.pname}
             </h5>
@@ -37,7 +37,7 @@ export const ProductCard = ({ product }) => {
               Rs.{product.price}
             </span>
             <a
-              href="#"
+              href="/"
               className="text-white bg-red-700 hover:bg-red-500 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-red-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
             >
               Add to cart

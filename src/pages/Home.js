@@ -1,7 +1,7 @@
 import { ProductCard } from "../components";
-import { useState } from "react";
+
 export const Home = () => {
-  const [products, setProducts] = useState([
+  const products = [
     {
       id: 10001,
       pname: "shoe",
@@ -32,7 +32,7 @@ export const Home = () => {
       price: 1700,
       instock: true,
     },
-  ]);
+  ];
   return (
     <main>
       <section className="products flex flex-wrap justify-content align-center">
