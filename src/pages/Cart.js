@@ -1,4 +1,3 @@
-import { useState } from "react";
 import { CartCard } from "../components";
 import { useTitle } from "../hooks/useTitle";
 
